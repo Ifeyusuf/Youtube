@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/images/youtube-icon.svg" type="image/x-icon">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</head>
+<body class="body">
+
+    <!-- HEADER SECTION START HERE -->
+ <header class="closeNav fixed bg-white">
+    <div class="  container px-lg-px">
+        <article class="d-flex py-1 justify-between flex-div px width">
+
+            <!-- LEFT HEADER START HERE -->
+            <div class="d-flex flex-div px-sm-1">
+
+                <!-- HAMBUGER  -->
+                <div class="pc-bars cursor pc-only pc-md-only bars">
+                    <div class="bar-1"></div>
+                    <div class="bar-2"></div>
+                    <div class="bar-3"></div>
+                </div>
+
+                <div class="mobile-bars cursor mobile-only tablet-only bars" id="bars">
+                    <div class="bar-1"></div> 
+                    <div class="bar-2"></div>
+                    <div class="bar-3"></div>
+                </div>
+            <!--    HAMBUGER END HERE -->
+
+                <div class="logo ms-1">
+                    <a href="" class="brand"><iconify-icon icon="logos:youtube" class="iconify"></iconify-icon></a>
+                </div>
+            </div>
+            
+            <!-- LEFT HEADER END HERE -->
+
+            
+            <!-- MIDDLE HEADER START HERE -->
+                <div class="input-group flex-div ">
+                    <button class="positioning-icon pc-only"><iconify-icon icon="material-symbols:search" class="iconify"></iconify-icon></button>
+
+                    <input type="search" class="input pc-only" id="input" placeholder="Search">
+
+                    <button class="search-icon cursor" id="search-icon-mobile"><iconify-icon icon="material-symbols:search" class="iconify"></iconify-icon></button>
+
+                    <div class="voice-icon pc-only" id="special-3">
+                    <iconify-icon icon="ic:outline-keyboard-voice" class="iconify"></iconify-icon>
+                    </div>  
+                </div>
+            <!-- MIDDLE HEADER END HERE -->
+
+
+              <!-- RIGHT HEADER START HERE -->
+            <div class="right d-flex flex-div px-sm-1 gap-10 ms-special-md mx-sm-special mx-lg-px mx-2">
+                <div class="dots flex-div">
+                    <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify "></iconify-icon></button>
+                </div>
+                <div class="d-flex profile-border flex-div gap-10 cursor">
+                    <div class="profile-icon flex-div">
+                        <iconify-icon icon="gg:profile" class="iconify text-blue"></iconify-icon>
+                    </div>
+                    <form action="" class="pc-only flex-div">
+                        <button type="button" class="btn-sign cursor">Sign in</button>
+                    </form>
+                </div>
+
+                <!-- SWITCH START HERE -->
+                <label class="switch pc-only">
+                    <input type="checkbox">
+                    <span class="round"></span>
+                </label>
+            </div>
+            <!-- RIGHT HEADER END HERE -->
+    
+
+        </article>
+
+        <!--SEARCH MOBILE ONLY -->
+        <div class="mobile-only bg-info3 top py-1 " id="mobile-dark">
+            <div class="d-flex gap-10 px-sm-1 flex-div ">
+                <span class="arrow cursor flex-div"><iconify-icon icon="material-symbols:arrow-back"></iconify-icon></span>
+                <div class="d-flex">
+                    <input type="search" class="input-mobile " id="inputs" placeholder="Search">
+                    <button class="search-icon-mobile cursor" id="search-icon-mobile"><iconify-icon icon="material-symbols:search" class="iconify"></iconify-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <article class="bodys"></article>
+
+ </header> <br><br><br> 
+ 
+ <!-- HEADER SECTION END HERE -->
+
+ <!-- MAIN SECTION START HERE  -->
+ <section class="border-relative px-lg-px mt-lg-1">
+    <div class="container">
+        <div class="row f-direction f-md-direction">
+            <div class="col-2 overflow-x">
+
+                <!-- SIDEBAR START HERE -->
+                <aside class="nav-sm-fixed nav-lg " id="sidebar-sm">
+                    <div class="d-flex flex-div py-sm-1 ms-sm-1 justify-between">
+
+                      <div class="d-flex flex-div">
+                            <!-- HAMBUGER  -->
+                        <div class="bars cursor mobile-only radius-sm" id="bars">
+                            <div class="bar-1"></div>
+                            <div class="bar-2"></div>
+                            <div class="bar-3"></div>
+                        </div>
+                    <!--    HAMBUGER END HERE -->
+        
+                        <div class="logo ms-1 mobile-only">
+                            <a href="" class="brand"><img src="/images/icons.jpg" width="70px " class="flex-div"></a>
+                        </div>
+                      </div>
+                        <!-- SWITCH START HERE -->
+                <label class="switch me-2 mobile-only">
+                    <input type="checkbox">
+                    <span class="round"></span>
+                </label>
+            <!-- RIGHT HEADER END HERE -->
+                    </div>
+
+                    <ul class="nav-items">
+                        <li class="nav-list flex-div ">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="material-symbols:home" class="iconify"></iconify-icon></span> <span><small>Home</small></span>
+                        </li>
+                        
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><img src="/images/shorts.png" alt="" class="iconify" width="25px"></span> <span><small>Shorts</small></span></a>
+                        </li>
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15 "><span><iconify-icon icon="material-symbols:subscriptions-outline-sharp" class="iconify"></iconify-icon></span> <span><small>Subscriptions</small></span></a>
+                        </li> <br>
+
+                        <div class="border border-absolute"></div><br>
+                        
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="material-symbols:video-library-outline-sharp" class="iconify"></iconify-icon></span> <span ><small>Library</small></span></a>
+                        </li>
+                        <li class="nav-list flex-div pb-1">
+                            <a href="" class="d-flex block text-dark gap-15 "><span><iconify-icon icon="ic:round-history" class="iconify"></iconify-icon></span> <span><small>History</small></span></a>
+                        </li> <br>
+
+                        <p class="px-sm-1"><small class="text-sm-dark text-md-dark">Sign in to like videos, <br> comment, and subscribe.</small></p>
+
+                        <div class="d-flex profile-border-2 flex-div gap-10 ms-sm-1 w-10 ms-md-px">
+                            <div class="profile-icon flex-div">
+                                <iconify-icon icon="gg:profile" class="iconify text-blue"></iconify-icon>
+                            </div>
+                            <form action="">
+                                <button class="btn-sign special">Sign in</button>
+                            </form>
+                        </div><br>
+
+                        <div class="border-absolute-2 p-l-r"></div><br>
+
+                        <span class="nav-list flex-div px-sm-1">
+                            <p class="text-sm-dark text-md-dark">Explore</p>
+                        </span><br>
+
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="mdi:hot" class="iconify"></iconify-icon></span> <span ><small>Trending</small></span></a>
+                        </li>
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="material-symbols:music-note" class="iconify"></iconify-icon></span> <span ><small>Music</small></span></a>
+                        </li>
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="fluent:movies-and-tv-24-regular" class="iconify"></iconify-icon></span> <span ><small>Movies & TV</small></span></a>
+                        </li>
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="fluent:live-24-regular" class="iconify"></iconify-icon></span> <span ><small>Live</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="simple-icons:youtubegaming" class="iconify"></iconify-icon></span> <span ><small>Gaming</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="arcticons:google-newsstand" rotate="180deg" class="iconify"></iconify-icon></span> <span ><small>News</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="carbon:trophy" class="iconify"></iconify-icon></span> <span ><small>Sports</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="material-symbols:menu-book-outline" class="iconify"></iconify-icon></span> <span ><small>Learning</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="mdi:face-female-shimmer-outline" class="iconify"></iconify-icon></span> <span ><small>Fashion & beauty</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="mdi:cast-audio-variant" class="iconify"></iconify-icon></span> <span ><small>Podcasts</small></span></a>
+                        </li> <br>
+
+                        <div class="border-absolute-3"></div> <br>
+
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="material-symbols:add-circle-outline" class="iconify"></iconify-icon></span> <span ><small>Browse Channels</small></span></a>
+                        </li> <br>
+
+                        <div class="border-absolute-3"></div><br>
+
+                        <span class="nav-list flex-div ">
+                            <p>More from YouTube</p>
+                        </span>  <br>
+
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="logos:youtube-icon"></iconify-icon></span> <span ><small>YouTube Premium</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="simple-icons:youtubemusic" class="iconify text-red"></iconify-icon></span> <span ><small>YouTube Music</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="openmoji:youtube" class="iconify"></iconify-icon></span> <span ><small>YouTube Kids</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="mdi:youtube-tv" class="iconify text-red"></iconify-icon></span> <span ><small>YouTube TV</small></span></a>
+                        </li> <br>
+
+                        <div class="border-absolute-3"></div><br>
+
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="ep:setting" class="iconify"></iconify-icon></span> <span ><small>Settings</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="bi:flag" class="iconify"></iconify-icon></span> <span ><small>Report history</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="ic:baseline-help-outline" class="iconify"></iconify-icon></span> <span ><small>Help</small></span></a>
+                        </li> 
+                        <li class="nav-list flex-div">
+                            <a href="" class="d-flex block text-dark gap-15"><span><iconify-icon icon="ri:feedback-line" class="iconify"></iconify-icon></span> <span ><small>Send feedback</small></span></a>
+                        </li>  <br>
+                       <div class="border-bottom py-"></div> <br>
+
+                    </ul>
+                    <footer>
+                        <div class="col fs text-sm-dark px-md-px text-md-dark">
+                            <p>About Press Copyright <br>Contact us Creators <br> Advertise Developers</p>
+                        <p class="py-1">Terms Privacy Policy & Safety How YouTube Works <br> Test new features</p>
+                        <p class="py-1 text-info4">&copy; <span id="year"></span> <strong class="text-blue">YusfulTech</strong></p>
+                        </div>
+                        <div class="py-sm-sp"></div>
+                    </footer>
+                </aside>
+                
+
+                <aside class="nav-fixed pc-only .pc-only-tab aside">
+                    <ul class="nav-items-2 ">
+                        <li class="nav-list  width-50px flex-center">
+                            <a href="" class=" text-center block text-dark "><span ><iconify-icon icon="material-symbols:home" class="iconify flex-center"></iconify-icon></span> <span><small>Home</small></span></a>
+                        </li>
+                        
+                        <li class="nav-list width-50px flex-center">
+                            <a href="" class="block text-dark "><span><img src="/images/shorts.png" alt="" class="iconify ms-hover" width="25px"></span> <span><small>Shorts</small></span></a>
+                        </li>
+                        <li class="nav-list width-100px flex-center">
+                            <a href="" class=" block text-dark "><span><iconify-icon icon="material-symbols:subscriptions-outline-sharp" class="iconify ms-hover"></iconify-icon></span> <span><small>Subscriptions</small></span></a>
+                        </li> 
+
+                        
+                        <li class="nav-list width-50px flex-center">
+                            <a href="" class=" block text-dark"><span><iconify-icon icon="material-symbols:video-library-outline-sharp" class="iconify flex-center"></span> <span ><small>Library</small></span></a>
+                        </li>
+                        <li class="nav-list pb-1 width-50px flex-center">
+                            <a href="" class=" block text-dark gap-15 "><span><iconify-icon icon="ic:round-history" class="iconify flex-center"></iconify-icon></span> <span><small>History</small></span></a>
+                        </li> 
+                    </ul>
+                </aside>
+            </div>
+
+<!-- COL-10 SECTION START HERE -->
+            <div class="col-10 overflow-x width-sm closeNav">
+               <div class="position__icons z-index mt-5px">
+                <div class="d-flex gap-15 justify-between overflow-x-scroll ps-1 hover ps-sm-1 width-sm length" id="special">
+                    <div class="border-all bg-dark " id="special-2">
+                        <a href="" class="text-white"><p>All</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all" >
+                        <a href="" class=" text-dark" ><p>Music</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all" >
+                        <a href="" class=" text-dark" ><p>Yul&nbsp;Edochie</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all" >
+                        <a href="" class=" text-dark" ><p>Blessings</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all" >
+                        <a href="" class=" text-dark"  ><p>Burna&nbsp;Boy</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all " >
+                        <a href="" class=" text-dark"  ><p>Jennifa</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all" >
+                        <a href="" class=" text-dark" ><p>Comedy</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all" >
+                        <a href="" class=" text-dark" ><p>News</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all" >
+                        <a href="" class="text-dark" ><p>Dj&nbsp;mix</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all " >
+                        <a href="" class=" text-dark" ><p>scene</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all" >
+                        <a href="" class=" text-dark" ><p>Tourist&nbsp;destination</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all">
+                        <a href="" class=" text-dark"  ><p>Thrillers</p></a>
+                    </div>
+
+                    <div class="bg-info3 border-all ">
+                        <a href="" class="bg-info3 text-dark" ><p>Kygo</p></a>
+                    </div>
+
+                    <div class="bg-dark border-all " id="special-2">
+                        <a href="" class="text-white" ><p>Recently&nbsp;uploaded</p></a>
+                    </div>
+                </div>
+
+                <button class="next">
+                    <iconify-icon icon="ooui:previous-ltr" flip="vertical"></iconify-icon>
+                </button>
+                <button class="prev">
+                    <iconify-icon icon="ooui:previous-rtl" flip="vertical"></iconify-icon>
+                </button>
+               </div> 
+                
+                <div class="d-flex py-2 px-1rem gap-15 f-direction mx-sm-center f-md-direction mx-md-cente overflow-x cursor">
+
+                    <div class="d-flex gap-15  width-sm f-direction mx-md-center ">
+                        <div class="card col-1 mx-sm-center " id="search-videos">
+                            <div class="body show-dot ">
+                                <div class="position-relative">
+                                    <img src="/images/1j.webp" alt="" class="rounded">
+                                <div class="minutes bg-dark text-white">
+                                    <small>20:42</small>
+                                </div>
+                                </div>
+    
+                                <div class="d-flex mt-5px justify-between">
+                                    <div class="d-flex">
+                                       <div class="col">
+                                        <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                       </div>
+                                        <div class="col ms-1">
+                                            <p class="lh "><small>Little kungfu boy- <br>kungfu</small></p>
+                                            <p class="lh mt-5px text-info4"><small >kungfu <br> 377k views . 4 weeks ago</small></p>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="dots d-none">
+                                        <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/1j.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Little kungfu boy- <br>kungfu</small></p>
+                                                <p class="lh mt-5px text-info4"><small >kungfu<br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots  d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-15 f-direction">
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/1j.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Little kungfu boy- <br>kungfu</small></p>
+                                                <p class="lh mt-5px text-info4"><small >kungfu <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/1j.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Little kungfu boy- <br>kungfu</small></p>
+                                                <p class="lh mt-5px text-info4"><small >kungfu <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+                <div class="d-flex py-2 px-1rem gap-15 f-direction mx-sm-center f-md-direction mx-md-cente overflow-x cursor">
+
+                    <div class="d-flex gap-15  width-sm f-direction mx-md-center ">
+                        <div class="card col-1 mx-sm-center " id="search-videos">
+                            <div class="body show-dot ">
+                                <div class="position-relative">
+                                    <img src="/images/video-img-2.webp" alt="" class="rounded">
+                                <div class="minutes bg-dark text-white">
+                                    <small>20:42</small>
+                                </div>
+                                </div>
+    
+                                <div class="d-flex mt-5px justify-between">
+                                    <div class="d-flex">
+                                       <div class="col">
+                                        <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                       </div>
+                                        <div class="col ms-1">
+                                            <p class="lh "><small>Wizkid in Lagos- <br>Wizkid</small></p>
+                                            <p class="lh mt-5px text-info4"><small >Wizkid <br> 377k views . 4 weeks ago</small></p>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="dots d-none">
+                                        <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/video-img-2.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Wizkid in Lagos- <br>Wizkid</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Wizkid <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots  d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-15 f-direction">
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/video-img-2.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Wizkid in Lagos- <br>Wizkid</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Wizkid <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/video-img-2.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Wizkid in Lagos- <br>Wizkid</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Wizkid <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+                <div class="d-flex py-2 px-1rem gap-15 f-direction mx-sm-center f-md-direction mx-md-cente overflow-x cursor">
+
+                    <div class="d-flex gap-15  width-sm f-direction mx-md-center ">
+                        <div class="card col-1 mx-sm-center " id="search-videos">
+                            <div class="body show-dot ">
+                                <div class="position-relative">
+                                    <img src="/images/video-img-1.webp" alt="" class="rounded">
+                                <div class="minutes bg-dark text-white">
+                                    <small>20:42</small>
+                                </div>
+                                </div>
+    
+                                <div class="d-flex mt-5px justify-between">
+                                    <div class="d-flex">
+                                       <div class="col">
+                                        <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                       </div>
+                                        <div class="col ms-1">
+                                            <p class="lh "><small>Sabinu and police Case- <br>Oga Sabinus</small></p>
+                                            <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="dots d-none">
+                                        <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/video-img-1.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Sabinu and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots  d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-15 f-direction">
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/video-img-1.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Sabinu and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/video-img-1.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Sabinu and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+                <div class="d-flex py-2 px-1rem gap-15 f-direction mx-sm-center f-md-direction mx-md-cente overflow-x cursor">
+
+                    <div class="d-flex gap-15  width-sm f-direction mx-md-center ">
+                        <div class="card col-1 mx-sm-center " id="search-videos">
+                            <div class="body show-dot ">
+                                <div class="position-relative">
+                                    <img src="/images/1j.webp" alt="" class="rounded">
+                                <div class="minutes bg-dark text-white">
+                                    <small>20:42</small>
+                                </div>
+                                </div>
+    
+                                <div class="d-flex mt-5px justify-between">
+                                    <div class="d-flex">
+                                       <div class="col">
+                                        <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                       </div>
+                                        <div class="col ms-1">
+                                            <p class="lh "><small>Sabinu and police Case- <br>Oga Sabinus</small></p>
+                                            <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="dots d-none">
+                                        <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/1j.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Sabinu and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots  d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-15 f-direction">
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/1j.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Sabinu and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/1j.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Sabinu and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+                <div class="d-flex py-2 px-1rem gap-15 f-direction mx-sm-center f-md-direction mx-md-cente overflow-x cursor">
+
+                    <div class="d-flex gap-15  width-sm f-direction mx-md-center ">
+                        <div class="card col-1 mx-sm-center " id="search-videos">
+                            <div class="body show-dot ">
+                                <div class="position-relative">
+                                    <img src="/images/macar.webp" alt="" class="rounded">
+                                <div class="minutes bg-dark text-white">
+                                    <small>20:42</small>
+                                </div>
+                                </div>
+    
+                                <div class="d-flex mt-5px justify-between">
+                                    <div class="d-flex">
+                                       <div class="col">
+                                        <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                       </div>
+                                        <div class="col ms-1">
+                                            <p class="lh "><small>Macroni and police Case- <br>Oga Sabinus</small></p>
+                                            <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="dots d-none">
+                                        <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/macar.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Macroni and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots  d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-15 f-direction">
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/macar.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Macroni and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card col-1 mx-sm-center" id="search-videos">
+                                <div class="body show-dot ">
+                                    <div class="position-relative">
+                                        <img src="/images/macar.webp" alt="" class="rounded">
+                                    <div class="minutes bg-dark text-white">
+                                        <small>20:42</small>
+                                    </div>
+                                    </div>
+        
+                                    <div class="d-flex mt-5px justify-between">
+                                        <div class="d-flex">
+                                           <div class="col">
+                                            <img src="/images/zino.jpg" alt=""  class="rounded-circle"width="30">
+                                           </div>
+                                            <div class="col ms-1">
+                                                <p class="lh "><small>Macroni and police Case- <br>Oga Sabinus</small></p>
+                                                <p class="lh mt-5px text-info4"><small >Oga Sabinus <br> 377k views . 4 weeks ago</small></p>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="dots d-none">
+                                            <button class="dot-btn"><iconify-icon icon="mdi:dots-vertical" class="iconify me-2"></iconify-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+ </section>
+
+ <!-- MOBILE FOOTER START HERE --> <br><br><br>
+ <footer class="mobile-only box-shadow footer bg-white fixed-sm">
+
+    <article class="container footer-2">
+            <ul class="nav-items-2 d-flex flex-div justify-between px-sm-1" id="mx-none">
+                <li class="nav-list width-50px flex-center">
+                    <a href="" class=" text-center block text-dark "><span ><iconify-icon icon="material-symbols:home" class="iconify flex-center"></iconify-icon></span> <span><small>Home</small></span></a>
+                </li>
+                
+                <li class="nav-list width-50px flex-center">
+                    <a href="" class="block text-dark "><span><img src="/images/shorts.png" alt="" class="iconify ms-hover-sm" width="25px"></span> <span><small>Shorts</small></span></a>
+                </li>
+                
+                <li class="nav-list width-50px flex-center">
+                    <a href="" class=" block text-dark"><span><iconify-icon icon="material-symbols:video-library-outline-sharp" class="iconify flex-center"></span> <span ><small>Library</small></span></a>
+                </li>
+            </ul>
+    </article>
+
+ </footer>
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
